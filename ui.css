@@ -1,0 +1,92 @@
+/* light-dark(ctp-mocha, ctp-latte) */
+:root {
+  --text: light-dark(#4c4f69, #cdd6f4);
+  --base: light-dark(#eff1f5, #1e1e2e);
+  --mantle: light-dark(#e6e9ef, #181825);
+  --crust: light-dark(#dce0e8, #11111b);
+  --surface-0: light-dark(#ccd0da, #313244);
+  --surface-1: light-dark(#bcc0cc, #45475a);
+
+  /* blue */
+  --emphasis: light-dark(#1e66f5, #89b4fa);
+  /* sapphire */
+  --primary: light-dark(#209fb5, #74c7ec);
+  /* peach */
+  --external: light-dark(#fe640b, #fab387);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+/* layout */
+body {
+  display: flex;
+
+  font-size: 16px;
+  font-family: 'JetBrans Mono', monospace;
+
+  color: var(--text);
+  background-color: var(--base);
+}
+
+main {
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+aside {
+  width: 38.2%;
+  min-width: fit-content;
+  height: 100vh;
+  background: var(--crust);
+}
+
+/* typography */
+h1 {
+  font-size: 32px;
+  color: var(--primary);
+}
+
+h2 {
+  font-size: 24px;
+  color: var(--primary);
+}
+
+small {
+  font-size: 8px;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: var(--emphasis);
+}
+
+a,
+button {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.external {
+  color: var(--external);
+}
+
+h1::before {
+  content: '# ';
+}
+
+h2::before {
+  content: '## ';
+}
+
+em::before,
+em::after {
+  content: '*';
+}
