@@ -20,6 +20,7 @@
   padding: 0;
   border: none;
   background: transparent;
+  box-sizing: border-box;
 }
 
 /* layout */
@@ -42,6 +43,8 @@ aside {
   width: 38.2%;
   min-width: fit-content;
   height: 100vh;
+  padding: 0 16px;
+
   background: var(--crust);
 }
 
@@ -89,4 +92,84 @@ h2::before {
 em::before,
 em::after {
   content: '*';
+}
+
+/* components */
+.card {
+  margin-top: 16px;
+  border-radius: 8px;
+
+  background: var(--surface-0);
+
+  :not(div:last-child) {
+    padding: 8px 16px;
+  }
+}
+
+.card>div:last-child,
+.button-group {
+  margin-top: 8px;
+
+  button,
+  a {
+    height: 64px;
+
+    display: grid;
+    place-items: center;
+  }
+
+  button:nth-child(1),
+  a:nth-child(1) {
+    border-bottom-left-radius: 8px;
+
+    background: var(--surface-1);
+    color: var(--text);
+  }
+
+  button:nth-child(2),
+  a:nth-child(2) {
+    border-bottom-right-radius: 8px;
+
+    background: var(--primary);
+    color: var(--surface-0);
+  }
+
+  .inverted {
+    background: var(--surface-1) !important;
+    color: var(--text) !important;
+  }
+
+  .primary {
+    background: var(--primary) !important;
+    color: var(--surface-0) !important;
+  }
+}
+
+.button-group {
+
+  button:nth-child(1),
+  a:nth-child(1) {
+    border-top-left-radius: 8px;
+  }
+
+  button:nth-child(2),
+  a:nth-child(2) {
+    border-top-right-radius: 8px;
+  }
+}
+
+aside>.card {
+  --surface-0: var(--base);
+  --surface-1: var(--mantle);
+}
+
+/* utils */
+.golden {
+  display: grid;
+  grid-template-columns: auto 61.8%;
+}
+
+.even {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
