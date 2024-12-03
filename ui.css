@@ -52,6 +52,9 @@ aside {
   width: 38.2%;
   min-width: fit-content;
   height: 100vh;
+  overflow: auto;
+  position: sticky;
+  top: 0;
   padding: 0 1em;
 
   background: var(--crust);
@@ -77,6 +80,7 @@ small {
 }
 
 em,
+blockquote,
 .highlight {
   font-weight: bold;
   font-style: normal;
@@ -101,7 +105,6 @@ p {
 
 blockquote {
   padding: 8px 0;
-  color: var(--emphasis);
 }
 
 p>code {
