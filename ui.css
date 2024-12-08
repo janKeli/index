@@ -37,27 +37,37 @@
 
 /* layout */
 body {
-  display: flex;
-
   color: var(--text);
   background-color: var(--base);
+}
+
+body.desktop {
+  display: flex;
 }
 
 main {
   max-width: 80ch;
   margin: 0 auto;
+  padding: 0 1rem 1rem;
 }
 
 aside {
+  min-height: calc(100vh - 64px - 1rem);
+  margin-top: -1rem;
+  padding: 1rem;
+
+  background: var(--crust);
+}
+
+body.desktop>aside {
   width: 38.2%;
   min-width: fit-content;
   height: 100vh;
   overflow: auto;
   position: sticky;
   top: 0;
-  padding: 0 1em;
-
-  background: var(--crust);
+  margin-top: 0;
+  padding: 0 1rem 1rem;
 }
 
 /* typography */
@@ -226,4 +236,17 @@ aside>.card {
 .even {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.hidden {
+  display: none;
+}
+
+.fixed-to-bottom {
+  position: sticky;
+  bottom: 0;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+  background: var(--mantle);
 }
