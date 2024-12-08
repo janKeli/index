@@ -222,6 +222,13 @@ aside>.card {
   --surface-1: var(--mantle);
 }
 
+/* site name */
+.app-name {
+  text-align: right;
+  padding: 0;
+  margin: 1em 0 0;
+}
+
 /* utils */
 .golden {
   display: grid;
