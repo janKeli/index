@@ -1,3 +1,7 @@
+/* reason for ui.css: semantic ftw */
+/* TODO add input and form elements */
+/* TODO add ui.js for things like heading links and mobile nav */
+
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
@@ -20,7 +24,7 @@
   /* blue */
   --emphasis: light-dark(#1e66f5, #89b4fa);
   /* sapphire */
-  --primary: light-dark(#209fb5, #74c7ec);
+  --primary: light-dark(#04a5e5, #74c7ec);
   /* peach */
   --external: light-dark(#fe640b, #fab387);
 }
@@ -61,7 +65,7 @@ aside {
 
 body.desktop>aside {
   width: 38.2%;
-  min-width: fit-content;
+  min-width: min-content;
   height: 100vh;
   overflow: auto;
   position: sticky;
@@ -117,6 +121,13 @@ p {
   padding: 8px 0;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 61.8vh;
+}
+
 blockquote {
   padding: 8px 0;
 }
@@ -160,6 +171,7 @@ blockquote::before {
 .card {
   margin-top: 1em;
   border-radius: 8px;
+  min-width: 48ch;
 
   background: var(--surface-0);
 }

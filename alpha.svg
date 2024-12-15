@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46667 135.46667"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <style>
+     #a{fill:#eff1f5;stroke:none;}
+     #b{fill:#df8e1d;stroke:#eff1f5;}
+     #c{fill:#04a5e5;stroke:#eff1f5;}
+     #d{fill:#fe640b;stroke:#eff1f5;}
+     #e{fill:#1e66f5;stroke:#eff1f5;}
+     #f{fill:#d20f39;stroke:#eff1f5;}
+     #g{fill:#eff1f5;stroke:none;}
+     @media (prefers-color-scheme: dark) {
+        #a{fill:#1e1e2e;stroke:none;}
+        #b{fill:#313244;stroke:#1e1e2e;}
+        #c{fill:#bac2de;stroke:#1e1e2e;}
+        #d{fill:#fab387;stroke:#1e1e2e;}
+        #e{fill:#cdd6f4;stroke:#1e1e2e;}
+        #f{fill:#f9e2af;stroke:#1e1e2e;}
+        #g{fill:#1e1e2e;stroke:none;}
+     }
+  </style>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="stroke-width:0.826484"
+       id="a"
+       width="135.46667"
+       height="135.46667"
+       x="0"
+       y="0" />
+    <g
+       id="g1"
+       transform="translate(-413.01202,-18.922542)">
+      <path
+         d="m 480.73665,27.791785 a 58.864502,58.864502 0 0 0 -0.057,0.0041 58.864502,58.864502 0 0 0 -58.7985,58.859979 58.864502,58.864502 0 0 0 58.7985,58.859976 58.864502,58.864502 0 0 0 0.051,0.004 36.378262,58.864502 0 0 0 36.3683,-58.864116 36.378262,58.864502 0 0 0 -36.3616,-58.864113 z"
+         style="stroke-width:2.11667"
+         id="b" />
+      <path
+         d="m 539.60945,86.647074 a 58.864502,36.378262 0 0 1 -58.8641,36.361616 58.864502,36.378262 0 0 1 -58.8636,-36.368326 58.864502,58.864502 0 0 0 -0.001,0.0155 58.864502,58.864502 0 0 0 58.8646,58.864626 58.864502,58.864502 0 0 0 58.8646,-58.864626 58.864502,58.864502 0 0 0 -5e-4,-0.009 z"
+         style="stroke-width:2.11667"
+         id="c" />
+      <ellipse
+         style="stroke-width:2.11667"
+         id="d"
+         cx="480.74536"
+         cy="86.656136"
+         rx="58.864624"
+         ry="36.378098" />
+      <path
+         d="m 480.73655,27.791785 a 36.378262,58.864502 0 0 1 36.3616,58.864109 36.378262,58.864502 0 0 1 -36.3683,58.863596 58.864502,58.864502 0 0 0 0.015,0.001 58.864502,58.864502 0 0 0 58.8646,-58.864596 58.864502,58.864502 0 0 0 -58.8646,-58.864626 58.864502,58.864502 0 0 0 -0.01,5.17e-4 z"
+         style="stroke-width:2.11667"
+         id="e" />
+      <path
+         id="f"
+         style="stroke-width:0.10105"
+         d="m 503.21195,88.218984 a 22.481784,22.481784 0 0 0 0,-0.0219 22.481784,22.481784 0 0 0 -22.4801,-22.456551 22.481784,22.481784 0 0 0 -22.48,22.456571 22.481784,22.481784 0 0 0 -10e-4,0.0193 22.481784,13.893743 0 0 0 22.4816,13.889926 22.481784,13.893743 0 0 0 22.4816,-13.887386 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono';stroke:none;stroke-width:2.11667"
+         x="474.44836"
+         y="87.820305"
+         id="text239-0"><tspan
+           id="g"
+           style="stroke:none;stroke-width:2.11667"
+           x="474.44836"
+           y="87.820305">alpha</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46667 135.46667"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <style>
+     #a{fill:#eff1f5;stroke:none;}
+     #b{fill:#04a5e5;stroke:#eff1f5;}
+     #c{fill:#1e66f5;stroke:#eff1f5;}
+     #d{fill:#eff1f5;}
+     @media (prefers-color-scheme: dark) {
+        #a{fill:#1e1e2e;stroke:none;}
+        #b{fill:#cdd6f4;stroke:#1e1e2e;}
+        #c{fill:#313244;stroke:#1e1e2e;}
+        #d{fill:#1e1e2e;}
+     }
+  </style>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="stroke:none;stroke-width:0.826484"
+       id="a"
+       width="135.46667"
+       height="135.46667"
+       x="0"
+       y="0" />
+    <path
+       id="b"
+       style="stroke-width:2.11667"
+       d="m 67.74208,8.869244 a 58.864502,58.864502 0 0 1 0.057,0.004 58.864502,58.864502 0 0 1 58.7984,58.860006 58.864502,58.864502 0 0 1 -58.7984,58.85998 58.864502,58.864502 0 0 1 -0.051,0.004 36.378262,58.864502 0 0 1 -36.3683,-58.86398 36.378262,58.864502 0 0 1 36.3616,-58.864106 z" />
+    <path
+       d="m 67.74208,8.869244 a 36.378262,58.864502 0 0 0 -36.3616,58.864106 36.378262,58.864502 0 0 0 36.3683,58.8636 58.864502,58.864502 0 0 1 -0.015,10e-4 58.864502,58.864502 0 0 1 -58.8646,-58.8646 58.864502,58.864502 0 0 1 58.8646,-58.864626 58.864502,58.864502 0 0 1 0.01,5.2e-4 z"
+       style="stroke-width:2.11667"
+       id="c" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono';stroke:none;stroke-width:2.11667"
+       x="58.869896"
+       y="70.823914"
+       id="text276"><tspan
+         id="d"
+         style="stroke:none;stroke-width:2.11667"
+         x="58.869896"
+         y="70.823914">release</tspan></text>
+  </g>
+</svg>
