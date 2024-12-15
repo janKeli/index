@@ -50,6 +50,7 @@ body.desktop {
 }
 
 main {
+  min-height: calc(100vh - 64px - 1rem);
   max-width: 80ch;
   margin: 0 auto;
   padding: 0 1rem 1rem;
