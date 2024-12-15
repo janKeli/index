@@ -181,7 +181,7 @@ blockquote::before {
 }
 
 .card>:last-child,
-.button-group {
+.input-group {
   margin-top: 8px;
 
   button,
@@ -217,7 +217,7 @@ blockquote::before {
   }
 }
 
-.button-group {
+.input-group {
   margin-top: 1em;
 
   :nth-child(1) {
